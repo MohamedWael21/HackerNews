@@ -7,13 +7,14 @@
     "dev": "nodemon src/index.js"
   },
   "dependencies": {
-    "@prisma/client": "^3.7.0",
-    "apollo-server": "^2.19.0",
+    "@prisma/client": "3.8.1",
+    "apollo-server": "^3.0.0",
     "bcryptjs": "2.4.3",
+    "graphql-subscriptions": "^2.0.0",
     "jsonwebtoken": "8.5.1"
   },
   "devDependencies": {
-    "prisma": "^3.7.0",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "prisma": "3.8.1"
   }
 }
